@@ -1,0 +1,140 @@
+:root {
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 10vh;
+}
+
+.container {
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-bottom: 5vh;
+  padding-top: 1vh;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container-title {
+  text-align: center;
+  color: green;
+}
+
+.event-time, .event-description {
+  display: flex;
+  flex-direction: row;
+}
+
+.event-time div, .event-description div {
+  flex-basis: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.event-description {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.event-time {
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.event-participant {
+  padding: 1%;
+  margin-left: 10%;
+}
+
+.event-participant-form {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 5px;
+  border-left: 1px solid rgb(21, 211, 236);
+  background-color:  rgb(21, 211, 236);
+}
+
+.checkbox-input {
+  flex-basis: 2%;
+  cursor: pointer;
+}
+.checkbox-label {
+  flex-basis: 98%;
+  margin-left: 1%;
+}
+
+.list-done {
+  margin: 1%;
+  padding: 1%;
+  border-radius: 5px;
+  border-left: 1px solid rgb(42, 232, 39);
+  background-color:  rgb(42, 232, 39);
+}
+
+.exit-button {
+  position: absolute;
+  left: 140vh;
+}
+
+.presence-button {
+  border: 1px solid green;
+  width: max-content;
+  height: max-content;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  padding: 0.5%;
+  cursor: pointer;
+}
+
+.login-title {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.login div {
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+}
+
+.container-login {
+  overflow: scroll;
+  background-color: white;
+  padding: 2%;
+  border-radius: 10px;
+  width: 40vw;
+  height: 70vh;
+  margin: auto;
+  scrollbar-color: rgb(135, 135, 132);
+}
+
+input {
+  width: 38vw;
+  height: 3vh;
+  border-color: rgb(135, 135, 132);
+}
+
+.input-div {
+  height: max-content;
+  width: max-content;
+  padding: 1%;
+  border: 1px solid rgb(135, 135, 132);
+  background-color: rgb(135, 135, 132);
+}
+
+.done-div {
+  height: 3.75vh;
+  width: 39vw;
+  padding: 1%;
+  border: 1px solid rgb(135, 135, 132);
+  background-color: rgb(135, 135, 132);
+}
+
+h4 {
+  color: rgb(135, 135, 132);
+}
